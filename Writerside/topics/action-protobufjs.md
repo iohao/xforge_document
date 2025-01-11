@@ -44,7 +44,7 @@ S2C_Heartbeat = 2;
 
 然后将proto文件生成 proto.js 以及 描述文件 proto.d.ts：
 
-```
+```Text
 ./node_modules/protobufjs-cli/bin/pbjs -t static-module -w commonjs cmd.proto -o assets/proto.js
 ./node_modules/protobufjs-cli/bin/pbts assets/proto.js -o assets/proto.d.ts
 ```
@@ -54,8 +54,8 @@ S2C_Heartbeat = 2;
 我们现在可以直接使用了！具体做法是：
 1.在你需要引入proto的class文件中，像这样引入：
 
-```
-import { default as root } from “…/…/proto.js”;// 此处你要修改成正确的相对路径，但是请记得一定要是proto.js结尾.
+```TypeScript
+import { default as root } from “…/…/proto.js”;// 此处你要修改成正确的相对路径，但是请记得一定要是 proto.js 结尾.
 const { eproto } = root;
 ```
 

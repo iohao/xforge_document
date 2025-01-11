@@ -4,7 +4,11 @@
 
 ## 安装
 
-在项目根目录执行```npm run package```，选择```组件```，找到```cc-comp-rich-text```。
+```Shell
+npm run package
+```
+
+，选择```组件```，找到```cc-comp-rich-text```。
 
 ## 使用
 

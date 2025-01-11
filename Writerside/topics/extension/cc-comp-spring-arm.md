@@ -10,7 +10,11 @@
 
 ## 安装
 
-在项目根目录执行```npm run package```，选择```组件```，找到```cc-comp-spring-arm```。
+```Shell
+npm run package
+```
+
+，选择```组件```，找到```cc-comp-spring-arm```。
 
 ## 使用
 

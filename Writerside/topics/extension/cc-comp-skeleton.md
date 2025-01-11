@@ -4,7 +4,11 @@ Spine组件。
 
 ## 安装
 
-在项目根目录执行```npm run package```，选择```组件```，找到```cc-comp-skeleton```。
+```Shell
+npm run package
+```
+
+，选择```组件```，找到```cc-comp-skeleton```。
 
 ## 使用
 

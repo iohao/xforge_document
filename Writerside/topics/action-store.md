@@ -4,7 +4,7 @@
 
 - 不允许跨UI引用资源，比如PopTip使用PageHome中的图片资源。
 - 在快速迭代期(或者叫项目前期)，尽量不要过多的考虑通用资源划分问题，这会成为累赘。
-- **需要完全了解Bundle中资源的引用关系** ，相关文档 - [CocosCreator的优先级原则](https://docs.cocos.com/creator/manual/zh/asset/bundle.html#%E4%BC%98%E5%85%88%E7%BA%A7)。
+- **需要完全了解Bundle中资源的引用关系** ，相关文档 - [CocosCreator的优先级原则](https://docs.cocos.com/creator/manual/zh/asset/bundle.html#优先级)。
 
 ## 最佳实践
 
