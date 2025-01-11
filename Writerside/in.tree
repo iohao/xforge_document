@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="hi"
+                 name="XForge"
+                 start-page="starter.md">
+
+    <toc-element topic="starter.md">
+        <toc-element topic="introduction.md"/>
+        <toc-element topic="cli.md"/>
+        <toc-element topic="catalogue.md"/>
+        <toc-element topic="quick.md"/>
+    </toc-element>
+    <toc-element topic="advance.md">
+        <toc-element topic="setting.md"/>
+        <toc-element topic="data.md"/>
+        <toc-element topic="sound.md"/>
+        <toc-element topic="homeScreen.md"/>
+        <toc-element topic="ui.md"/>
+        <toc-element topic="controller.md"/>
+        <toc-element topic="internalKit.md"/>
+        <toc-element topic="scene.md"/>
+        <toc-element topic="internalManager.md"/>
+        <toc-element topic="customManager.md">
+        </toc-element>
+    </toc-element>
+    <toc-element topic="extension.md">
+        <toc-element topic="publishExtension.md"/>
+        <toc-element topic="ctrl.md">
+            <toc-element topic="cc-ctrl-rocker.md"/>
+        </toc-element>
+        <toc-element topic="module.md">
+            <toc-element topic="cc-ecs.md"/>
+            <toc-element topic="cc-store.md"/>
+            <toc-element topic="cc-astar.md"/>
+            <toc-element topic="cc-random.md"/>
+            <toc-element topic="cc-decimal-random.md"/>
+            <toc-element topic="cc-decimal-sap.md"/>
+            <toc-element topic="cc-decimal-sat.md"/>
+            <toc-element topic="cc-decimal-vec2.md"/>
+            <toc-element topic="cc-decimal-vec3.md"/>
+            <toc-element topic="cc-decimal.md"/>
+            <toc-element topic="cc-sat.md"/>
+            <toc-element topic="cc-sap.md"/>
+            <toc-element topic="cc-quadtree.md"/>
+            <toc-element topic="cc-emath.md"/>
+            <toc-element topic="cc-number.md"/>
+            <toc-element topic="cc-rvo2.md"/>
+            <toc-element topic="cc-request.md"/>
+            <toc-element topic="cc-xml-parser.md"/>
+            <toc-element topic="cc-minisdk.md"/>
+            <toc-element topic="cc-expand.md"/>
+        </toc-element>
+        <toc-element topic="component.md">
+            <toc-element topic="cc-comp-animation.md"/>
+            <toc-element topic="cc-comp-frame-animation.md"/>
+            <toc-element topic="cc-comp-movie-animation.md"/>
+            <toc-element topic="cc-comp-reward-fly.md"/>
+            <toc-element topic="cc-comp-rich-text.md"/>
+            <toc-element topic="cc-comp-skeletal-animation.md"/>
+            <toc-element topic="cc-comp-skeleton.md"/>
+            <toc-element topic="cc-comp-spring-arm.md"/>
+            <toc-element topic="cc-comp-toggle.md"/>
+        </toc-element>
+        <toc-element topic="other-extension.md">
+            <toc-element topic="cc-collections.md"/>
+            <toc-element topic="cc-comp-list-view.md"/>
+        </toc-element>
+    </toc-element>
+    <toc-element topic="inAction.md">
+        <toc-element topic="action-rapier.md"/>
+        <toc-element topic="action-wx.md"/>
+        <toc-element topic="action-store.md"/>
+        <toc-element topic="action-ssh-key.md"/>
+        <toc-element topic="action-ui.md"/>
+        <toc-element topic="action-web.md"/>
+        <toc-element topic="action-protobuf.md"/>
+        <toc-element topic="action-protobufjs.md"/>
+        <toc-element topic="action-ioGame.md"/>
+    </toc-element>
+</instance-profile>

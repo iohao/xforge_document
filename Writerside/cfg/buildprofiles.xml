@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE buildprofiles SYSTEM "https://resources.jetbrains.com/writerside/1.0/build-profiles.dtd">
+<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <variables>
+        <download-title>Github</download-title>
+        <download-page>https://github.com/a1076559139/XForge</download-page>
+        <showDownloadButton>true</showDownloadButton>
+
+        <include-after-body><!-- include-after-body: /Users/join/gitme/document/ioGameDoc/Writerside/topics/Hello.topic --></include-after-body>
+    </variables>
+    <build-profile instance="in">
+        <variables>
+            <noindex-content>true</noindex-content>
+        </variables>
+    </build-profile>
+    <footer>
+
+        <link href="https://github.com/a1076559139/XForge/issues">Issue</link>
+
+        <copyright>2019 XForge</copyright>
+    </footer>
+</buildprofiles>
